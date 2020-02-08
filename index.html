@@ -18,16 +18,16 @@
         <div class="top-header">
           <div class="container">
               <section class="active-menu">
-                  <ul class="contact list">
-                      <li class="tell"><a class="tel-icon" href="tel:+123123456789">123-123456789</a></li>
-                      <li class="mail"><a class="mail-icon" href="">info@ltnt.com</a></li>
+                  <ul class="active-menu__list list">
+                      <li><a class="active-menu__tel" href="tel:+123123456789">123-123456789</a></li>
+                      <li><a class="active-menu__mail" href="">info@ltnt.com</a></li>
                     </ul>
                     <ul class="info-menu list">
-                      <li class="info-list"><a href="" class="info-link">My Account</a></li>
-                      <li class="info-list"><a href="" class="info-link">Wishlist</a></li>
-                      <li class="info-list"><a href="" class="info-link">Cart</a></li>
-                      <li class="info-list"><a href="" class="info-link">Checkout</a></li>
-                      <li class="info-list"><a href="" class="info-link">Login/Register</a></li>
+                      <li><a href="" class="info-menu__link">My Account</a></li>
+                      <li><a href="" class="info-menu__link">Wishlist</a></li>
+                      <li><a href="" class="info-menu__link">Cart</a></li>
+                      <li><a href="" class="info-menu__link">Checkout</a></li>
+                      <li><a href="" class="info-menu__link">Login/Register</a></li>
                     </ul>
             </section>
           </div>
@@ -53,127 +53,119 @@
      <div class="top">
       <section class="banner">
         <div class="container">
-            <h2 class="banner-text">DRESSES<span class="green">&</span>JEANS</h2>
-            <h2 class="banner-text">FROM OUR FAMOUS BRANDS <span class="green">SALE</span></h2>
-            <a href="" class="banner-link">Buy now</a>
+            <h2 class="banner__title">DRESSES<span class="banner__text">&</span>JEANS</h2>
+            <h2 class="banner__title">FROM OUR FAMOUS BRANDS <span class="banner__text">SALE</span></h2>
+            <a href="" class="banner__link">Buy now</a>
         </div>
       </section>
      </div>
 
      <section class="about">
        <div class="container">
-          <ul class="about-list list">
-              <li class="about-list-list icon-1">
-                <h2 class="about-title">Setting</h2>
-                <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio dicta officiis nostrum tempore in eum unde perferendis nihil earum.</p>
+          <ul class="about__list list">
+              <li class="about-list__item icon-1">
+                <h2 class="about__title">Setting</h2>
+                <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio dicta officiis nostrum tempore in eum unde perferendis nihil earum.</p>
               </li>
-              <li class="about-list-list icon-2">
-                <h2 class="about-title">Money back</h2>
-                <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo illum beatae impedit in earum deserunt, soluta maiores magni molestias.</p>
+              <li class="about-list__item icon-2">
+                <h2 class="about__title">Money back</h2>
+                <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo illum beatae impedit in earum deserunt, soluta maiores magni molestias.</p>
               </li>
-              <li class="about-list-list icon-3">
-                <h3 class="about-title">Worldwide shipping</h3>
-                <p class="about-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ipsa distinctio ab odio dolor sunt, voluptatibus molestiae nisi nemo ullam!</p>
+              <li class="about-list__item icon-3">
+                <h3 class="about__title">Worldwide shipping</h3>
+                <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ipsa distinctio ab odio dolor sunt, voluptatibus molestiae nisi nemo ullam!</p>
               </li>
-              <li class="about-list-list icon-4">
-                <h3 class="about-title">Worldwide shipping</h3>
-                <p class="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sit neque eveniet nihil, iure impedit dolor officiis ad numquam quis.</p>
+              <li class="about-list__item icon-4">
+                <h3 class="about__title">Worldwide shipping</h3>
+                <p class="about__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sit neque eveniet nihil, iure impedit dolor officiis ad numquam quis.</p>
               </li>
             </ul>
        </div>
      </section>
 
-     <section class="new-collection">
-       <div class="container"> 
-         <h2 class="title green-line">NEW COLLECTION</h2>
-          <ul class="new-list list">
-           <li class="new-snap">
-             <a href="" class="new-link">
-               <div class="demo-card">
-                  <div class="overlay">
-                      <img src="./images/blue.tshirt.png" class="img" alt="blu tshirt">
+     <section class="card">
+      <div class="container"> 
+        <h2 class="card__title green-line">NEW COLLECTION</h2>
+         <ul class="card__list list">
+          <li class="card__item">
+            <a href="" class="card__link">
+                  <div class="card__overlay">
+                     <img src="./images/blue.tshirt.png" class="img" alt="blu tshirt">
+              </div>
+                <div class="card__buttons">
+                  <button type="button" class="card__buttons--heart"></button>
+                  <button type="button" class="card__buttons--random"></button>
+                  <button type="button" class="card__buttons--clock"></button>
+                  <button type="button" class="card__buttons--cart">Add to cart</button>
+                </div>
+              <div class="card__media">
+               <p class="card__text">BLUE TSHIRT</p>
+               <span class="card__cost">$26</span>
+              </div> 
+            </a>
+
+          </li>
+          <li class="card__item">
+            <a href="" class="card__link">
+                 <div class="card__overlay">
+                     <img src="./images/dress.png" class="img" alt="dress">
                   </div>
+              <div class="card__buttons">
+                 <button type="button" class="card__buttons--heart"></button>
+                 <button type="button" class="card__buttons--random"></button>
+                 <button type="button" class="card__buttons--clock"></button>
+                 <button type="button" class="card__buttons--cart">Add to cart</button>
                </div>
-                 <div class="overlay-buttons">
-                   <button type="button" class="button-icon heart"></button>
-                   <button type="button" class="button-icon random"></button>
-                   <button type="button" class="button-icon clock"></button>
-                   <button type="button" class="button-icon cart">Add to cart</button>
-                 </div>
-               <div class="media">
-                <p class="description">BLUE TSHIRT</p>
-                <span class="cost">$26</span>
-               </div> 
-             </a>
- 
-           </li>
-           <li class="new-snap">
-             <a href="" class="new-link">
-               <div class="demo-card">
-                  <div class="overlay">
-                      <img src="./images/dress.png" class="img" alt="dress">
-                   </div>
-               </div>
-               <div class="overlay-buttons">
-                  <button type="button" class="button-icon heart"></button>
-                  <button type="button" class="button-icon random"></button>
-                  <button type="button" class="button-icon clock"></button>
-                  <button type="button" class="button-icon cart">Add to cart</button>
-                </div>
-               <div class="media">
-                  <p class="description">WOMAN SHIRT</p>
-                  <span class="cost">$31</span>
-               </div>
-             </a>
+               <div class="card__media">
+                  <p class="card__text">BLUE TSHIRT</p>
+                  <span class="card__cost">$26</span>
+                 </div> 
+            </a>
 
-           </li>
-           <li class="new-snap">
-             <a href="" class="new-link">
-               <div class="demo-card">
-                  <div class="overlay">
-                      <img src="./images/yellow.shirt.png" class="img" 
-                      alt="yellow tshirt">
-                   </div>
+          </li>
+          <li class="card__item">
+            <a href="" class="card__link">
+                 <div class="card__overlay">
+                     <img src="./images/yellow.shirt.png" class="img" 
+                     alt="yellow tshirt">
+                  </div>
+              <div class="card__buttons">
+                 <button type="button" class="card__buttons--heart"></button>
+                 <button type="button" class="card__buttons--random"></button>
+                 <button type="button" class="card__buttons--clock"></button>
+                 <button type="button" class="card__buttons--cart">Add to cart</button>
                </div>
-               <div class="overlay-buttons">
-                  <button type="button" class="button-icon heart"></button>
-                  <button type="button" class="button-icon random"></button>
-                  <button type="button" class="button-icon clock"></button>
-                  <button type="button" class="button-icon cart">Add to cart</button>
-                </div>
-               <div class="media">
-                  <p class="description">YELLOW TSHIRT</p>
-                  <span class="cost">$21</span>
-               </div>
-             </a>
-           </li>
+               <div class="card__media">
+                  <p class="card__text">BLUE TSHIRT</p>
+                  <span class="card__cost">$26</span>
+                 </div> 
+            </a>
+          </li>
 
-           <li class="new-snap">
-             <a href="" class="new-link">
-               <div class="demo-card">
-                  <div class="overlay">
-                      <img src="./images/dress2.png" class="img" 
-                      alt="dress">
-                   </div>
+          <li class="card__item">
+            <a href="" class="card__link">
+                 <div class="card__overlay">
+                     <img src="./images/dress2.png" class="img" 
+                     alt="dress">
+              </div>
+              <div class="card__buttons">
+                  <button type="button" class="card__buttons--heart"></button>
+                  <button type="button" class="card__buttons--random"></button>
+                  <button type="button" class="card__buttons--clock"></button>
+                  <button type="button" class="card__buttons--cart">Add to cart</button>
                </div>
-               <div class="overlay-buttons">
-                  <button type="button" class="button-icon heart"></button>
-                  <button type="button" class="button-icon random"></button>
-                  <button type="button" class="button-icon clock"></button>
-                  <button type="button" class="button-icon cart">Add to cart</button>
-                </div>
-               <div class="media">
-                  <p class="description">COOL LINGERIE</p>
-                  <span class="cost">$56</span>
-               </div>
-             </a>
-           </li>
-         </ul>
-      </div>
-     </section>
+               <div class="card__media">
+                  <p class="card__text">BLUE TSHIRT</p>
+                  <span class="card__cost">$26</span>
+                 </div> 
+            </a>
+          </li>
+        </ul>
+     </div>
+    </section>
 
 
-      <section class="card">
+    <section class="card">
         <div class="container">
           <h2 class="title green-line">FEATURED PRODUCTS</h2>
              <ul class="snap-list list">
