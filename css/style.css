@@ -254,13 +254,14 @@ html {
   display: flex;
 }
 
-.about__item: last-child {
+.about__item:nth-last-child(1) {
   margin-right: 0;
 }
 
 .about__item {
-  text-align: end;
-  margin-right: 30px;
+  flex-basis: calc(100% / 4 - 20px);
+  margin-right: 20px;
+  text-align: center;
 }
 
 .about__title {
@@ -378,7 +379,11 @@ html {
 }
 
 .green-line::after {
+  margin: auto;
+  margin-top: 30px;
   display: block;
+  height: 20px;
+  width: 165 px;
   justify-content: center;
   content: '';
   background-image: url(../images/border.png);
